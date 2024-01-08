@@ -67,7 +67,7 @@ export default function VideoComponent() {
         </div>
 
         <video ref={videoRef} src="/video/Video.mp4">
-          <track kind="captions" srcLang="en" src="/subtitles.vtt" />
+          <track kind="captions" srcLang="en" src="/video/subtitles.vtt" />
         </video>
       </div>
     </>

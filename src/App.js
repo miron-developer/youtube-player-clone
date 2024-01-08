@@ -1,13 +1,7 @@
-import "./App.css";
-
 import { VideoComponent } from "./components/VideoComponent";
 
 function App() {
-  return (
-    <div className="App">
-      <VideoComponent />
-    </div>
-  );
+  return <VideoComponent />;
 }
 
 export default App;

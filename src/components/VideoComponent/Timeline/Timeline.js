@@ -25,7 +25,7 @@ export default function Timeline({
         Math.floor((percent * videoRef.current?.duration) / 10)
       );
 
-      const previewImgSrc = `/previewImgs/preview${previewImgNumber}.jpg`;
+      const previewImgSrc = `/previews/preview${previewImgNumber}.jpg`;
       previewRef.current.src = previewImgSrc;
       ref.current?.style.setProperty("--preview-position", percent);
 
